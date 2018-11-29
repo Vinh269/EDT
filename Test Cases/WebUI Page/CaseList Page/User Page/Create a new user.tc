@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create a new user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b26c4d7f-b32a-4cd7-bad0-6cb01343c206</testCaseGuid>
+   <variable>
+      <defaultValue>'test@test.com'</defaultValue>
+      <description></description>
+      <id>96bb5c4b-98a5-424e-a401-f9167d8f2aa4</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'User no'</defaultValue>
+      <description></description>
+      <id>109899bf-1fae-44bb-9b62-f086b7379dc2</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345678'</defaultValue>
+      <description></description>
+      <id>65d7381e-09e0-461c-a807-fc529eb1f9a4</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
