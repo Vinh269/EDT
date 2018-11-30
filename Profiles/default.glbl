@@ -34,9 +34,4 @@
       <initValue>10</initValue>
       <name>delay</name>
    </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'abc'</initValue>
-      <name>random</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -15,11 +15,22 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('eDT WebUI'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5)
 
 WebUI.callTestCase(findTestCase('WebUI Page/LogIn Page/LogIn with Admin user'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_EDT/a_222 222 222'))
+
+WebUI.setText(findTestObject('Object Repository/Page_EDT - 222 222 222/textarea_y_txtAllWords'), 'when or where')
+
+WebUI.click(findTestObject('Object Repository/Page_EDT - 222 222 222/input_y_btnSearch'))
+
+WebUI.delay(5)
+
+'Verify total documents return from search'
+WebUI.verifyElementText(findTestObject('Page_EDT - 222 222 222/Page_EDT - 222 222 222/span_3224'), '3,224')
 
 WebUI.closeBrowser()
 
